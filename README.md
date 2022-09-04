@@ -9,7 +9,7 @@ In order the emphasize the causes and effects, we focused on one main cause, and
 Our project includes two main parts. 
 The first part is a program that analyzes satellite images and outputs data about the progression of the causes and effects of climate change. For the deforestation of the Amazon Rainforest, it outputs a percent representing the the amount of forested area in the rainforest. For the drying of Lake Mead, the output is the area of the remaining parts of the lake. This program can also be used to analyze many different images, so it is also reusable. 
 
-The second part of our project is an awareness website, showcasing the satellite imagery we used, along with the data output from our program. This website will help spread awareness on the crisis at hand. Also, the data is accurate and can be used for different projects by many different people. 
+The second part of our project is an awareness website, showcasing the satellite imagery we used, along with the data output from our program. This website will help spread awareness on the crisis at hand. (Website link: https://climatecrisis.w3spaces.com/) Also, the data is accurate and can be used for different projects by many different people. 
 
 ## How we built it
 The program we designed to analyze the images works by going through each pixel and analyzing its coloring. Each pixel has an RGB Code, where R, G, and B are separate values, together representing the color of the pixel. For each color and its many different shades, there are multiple subsequent RGB codes, so we were able to accurately figure out the color of the pixel based on what range the RGB code falls into. We tracked the coloring of each pixel, and in the end came up with a ratio and a percent representing the colors. 
