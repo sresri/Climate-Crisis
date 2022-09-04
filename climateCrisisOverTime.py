@@ -4,7 +4,7 @@ import numpy as np
 from cv2 import destroyAllWindows
 
 
-forestImgs = ["/Users/sreeshsrinivasan/Downloads/ClimateCrisisProject/2000.jpeg","/Users/sreeshsrinivasan/Downloads/ClimateCrisisProject/2005.jpeg","/Users/sreeshsrinivasan/Downloads/ClimateCrisisProject/2008.jpeg","/Users/sreeshsrinivasan/Downloads/ClimateCrisisProject/2012.jpeg","/Users/sreeshsrinivasan/Downloads/ClimateCrisisProject/2016.jpeg","/Users/sreeshsrinivasan/Downloads/ClimateCrisisProject/2019.jpeg"]
+forestImgs = ["2000.jpeg","2005.jpeg","2008.jpeg","2012.jpeg","2016.jpeg","2019.jpeg"]
 for img in forestImgs:
     img = cv.imread(img)
 
