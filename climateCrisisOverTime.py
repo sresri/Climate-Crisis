@@ -35,7 +35,7 @@ for img in forestImgs:
     bottom = counts["r"]+counts["b"]
     print(str((top/(top+bottom))*100)+"%")
 
-lakeImages = ["/Users/sreeshsrinivasan/Downloads/ClimateCrisisProject/lakeBefore.jpeg","/Users/sreeshsrinivasan/Downloads/ClimateCrisisProject/lakeAfter.jpeg"]
+lakeImages = ["lakeBefore.jpeg","lakeAfter.jpeg"]
 for img in lakeImages:
     img = cv.imread(img)
 
